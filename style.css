@@ -1,0 +1,142 @@
+*{
+    color: white;
+    font-family: cursive;}
+
+.topblue{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+gap: 10px;
+
+}
+
+.flex-header {
+display: flex;
+border: 2px solid red;
+
+gap : 20px;
+
+}
+
+
+.yol{
+
+  color: white;
+  border: 2px solid red;
+}
+
+
+.secondhead{
+display: flex;
+justify-content: space-evenly;
+margin: 50px;
+
+}
+
+.secondhead .texte{
+padding: 40px;
+    width: 400px;
+}
+
+.secondhead .image{
+background-color: darkgray;
+margin: 50px;
+   padding: 100px;
+}
+
+.buttonsign{
+    color: white;
+background-color: blue;
+
+}
+.container1{
+    background-color: white;
+    padding: 100px;
+    
+}
+.container1 h1{
+    color: darkblue;
+}
+.container1 p{
+    color: black;
+}
+.container{
+    display : flex;
+    justify-content: center;
+   gap: 50px;
+
+
+}
+#box{
+    border: 2px solid blue;
+    padding: 60px;
+    width: 45px;
+    border-radius: 10%;
+}
+
+.container p{
+    width: 170px;
+    text-align: center;
+}
+.quote{
+
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: darkgray;
+}
+
+.quote .writer{
+    align-self: flex-end;
+}
+
+.quote .quote1{
+   text-align: center;
+   width: 700px;
+}
+.calldiv{
+    display: flex;
+justify-content: center;
+background-color: white;
+padding: 100px;
+
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightseagreen;
+    width: 800px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.call .button{
+align-self: center;
+}
+
+.call .button button{
+    width: 100px;
+    padding: 10px;
+    color: black;
+    font-size: larger;
+    background-color: lightseagreen;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    }
+
+   .call h1{
+       margin: -10px;
+   }
+   .call p{
+    margin: -10px;
+}
+ 
+
+
+
+ 
